@@ -2,7 +2,7 @@
 
 This is the place where I have practiced making Custom React Hooks.
 The list of the hooks practiced is as follows:
-  - [ ] Keyboard Hook (returns what key was pressed)
+  - [x] Keyboard Hook (returns what key was pressed)
   - [ ] Local Storage Access Hook
   - [ ] Window Resize Hook
   - [ ] Window Scroll Hook

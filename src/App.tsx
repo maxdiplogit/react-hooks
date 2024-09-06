@@ -1,5 +1,6 @@
 // Custom Hooks
 import useKeyPress from './hooks/useKeyPress';
+import useLocalStorage from './hooks/useLocalStorage';
 
 // Styles
 import './App.css'
@@ -7,10 +8,11 @@ import './App.css'
 
 const App = () => {
 	const key = useKeyPress();
-	console.log('Key: ', key);
+	const [ name, setName ] = useLocalStorage('name', 'Harsh');
+	console.log(name);
 	return (
 		<>
-			<div>
+			<div onClick={ () => setName('Crow') }>
 				React Hooks
 			</div>
 		</>

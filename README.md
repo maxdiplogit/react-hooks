@@ -6,7 +6,7 @@ The list of the hooks practiced is as follows:
   - [x] Local Storage Access Hook (allows to read, set and update localStorage values)
   - [x] Window Resize Hook
   - [x] Window Scroll Hook
-  - [ ] Use Cookies Hook
+  - [x] Use Cookies Hook
   - [ ] Query Params Hook
   - [ ] Infinite Scroll Hook
   - [ ] Mouse Hook
